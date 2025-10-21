@@ -95,12 +95,6 @@ model = timm.create_model('tf_efficientnetv2_s', pretrained=True, num_classes=NU
 model.classifier = nn.Linear(model.classifier.in_features, NUM_CLASSES)
 ```
 
-## Results
-
-![Confusion Matrix](docs/confusion_matrix.png)
-
-*Classification metrics will be included here after training completion.*
-
 ## Usage/Installation
 
 1. Clone the repository:
@@ -134,9 +128,13 @@ model.classifier = nn.Linear(model.classifier.in_features, NUM_CLASSES)
 
 This project uses the [Recyclable and Household Waste Classification](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification) dataset from Kaggle, which contains over 15,000 images across 30 waste categories.
 
-## Author
+## Authors
+- Liv Skeete | liv@di.st
+- Daniel Zhang
+- Levi Reese  
+- Chana Fink
 
-Liv Skeete | liv@di.st
+*UCLA COSMOS 2025*
 
 ## License
 
